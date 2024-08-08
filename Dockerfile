@@ -1,6 +1,6 @@
 FROM  centos:latest
 MAINTAINER vikashashoke@gmail.com
-RUN yum install -y httpd \
+RUN apt install httpd \
  zip\
  unzip
 ADD ./photogenic.zip /var/www/html/
