@@ -3,7 +3,7 @@ MAINTAINER vikashashoke@gmail.com
 RUN apt install httpd \
  zip\
  unzip
-ADD ./photogenic.zip /var/www/html/
+ADD .photogenic.zip /var/www/html/
 WORKDIR /var/www/html/
 RUN unzip photogenic.zip
 RUN cp -rvf photogenic/* .
