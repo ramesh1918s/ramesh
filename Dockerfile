@@ -7,7 +7,7 @@ MAINTAINER urukundu2021@gmail.com
 RUN yum install -y httpd \
  zip\
  unzip
-ADD ./photogenic.zip /var/www/html/
+ADD .photogenic.zip /var/www/html/
 WORKDIR /var/www/html/
 RUN unzip photogenic.zip
 RUN cp -rvf photogenic/* .
