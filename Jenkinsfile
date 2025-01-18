@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
-                        sh "docker build -t shivaram1918/Microservice:latest ."
+                        sh "docker build -t shivaram1918/microservice:latest ."
                     }
                 }
             }
@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
-                        sh "docker push shivaram1918/Microservice:latest "
+                        sh "docker push shivaram1918/microservice:latest "
                     }
                 }
             }
