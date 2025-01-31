@@ -3,10 +3,7 @@
 
 Step-by-Step Guide to Migrate All Branches
 Clone the source repository
-First, clone the source repository (https://github.com/jaiswaladi246/Microservice.git) to your local machine:
-bash
-CopyEdit
-git clone https://github.com/jaiswaladi246/Microservice.git
+
 cd Microservice
     
  git remote add target https://github.com/ramesh1918s/ramesh.git
