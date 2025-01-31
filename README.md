@@ -19,7 +19,6 @@ AWSCloudFormationFullAccess
 IAMFullAccess
 Add this Inline policies total policies are 7 
 
-
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -31,6 +30,7 @@ Add this Inline policies total policies are 7
         }
     ]
 }
+
 
 Create a Access_Keys Secret_Key
 Access_Key : xxxxxxxxxxxxxxxx
