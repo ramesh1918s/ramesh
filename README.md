@@ -19,10 +19,10 @@ AWSCloudFormationFullAccess
 IAMFullAccess
 Add this Inline policies total policies are 7 
 
+
 {
     "Version": "2012-10-17",
     "Statement": [
-       
         {
             "Sid": "VisualEditor0",
             "Effect": "Allow",
