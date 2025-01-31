@@ -22,6 +22,7 @@ Add this Inline policies total policies are 7
 {
     "Version": "2012-10-17",
     "Statement": [
+       
         {
             "Sid": "VisualEditor0",
             "Effect": "Allow",
@@ -45,16 +46,23 @@ Given below the commands
 AWSCLI
 
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
 sudo apt install unzip
+
 unzip awscliv2.zip
+
 sudo ./aws/install
+
 aws configure
 
 KUBECTL
 
 curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
+
 chmod +x ./kubectl
+
 sudo mv ./kubectl /usr/local/bin
+
 kubectl version --short --client
 
 EKSCTL
@@ -119,11 +127,14 @@ Install Jenkins (jenkins.io)
 Connect the jenkins server port :8080
 
 Docker install on server
+
 apt install docker.io  -y
+
 Create a use and password
 Dashboard of the jenkins plugins to available plugins 
 Install plugins (Docker),(Docker Pipelines)
  Install plugins (Kubernetes),(Kubernetes Cli)
+ 
 Config the plugins go to tools
 Docker Install name  ( docker) auto install (latest) and apply , save
 Docker credentials add the user name password  ID (docker-cred)add it credentials
